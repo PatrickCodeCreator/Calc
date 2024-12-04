@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link href="Calculatrice.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="calculator">
+    <div class="inputs">
+        <input type="text" id="input1" placeholder="Nombre 1">
+        <input type="text" id="input2" placeholder="Nombre 2">
+    </div>
+    <div class="buttons">
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('-')">-</button>
+        <button onclick="calculate('*')">*</button>
+        <button onclick="calculate('/')">/</button>
+    </div>
+    <div class="result" id="result">Résultat : </div>
+</div>
+<script src="Calculatrice.js"></script>
+</body>
+</html>
